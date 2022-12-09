@@ -204,59 +204,118 @@ body {
     filter: invert(28%) sepia(72%) saturate(10011%) hue-rotate(237deg) brightness(93%) contrast(105%);
 }
 
-/* CARD */
-
-.card-wrapper {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 50px;
-    margin-top: 6rem;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 42px;
-    position: relative;
-    width: 289px;
-    height: 285px;
-    background-color: #EDEDED;
-    border-radius: 7px;
-}
-
-.card button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.card-img-circle {
-    width: 145px;
-    height: 145px;
-    border-radius: 50%;
-    background-color: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-name {
+table {
+    margin-top: 4rem;
     font-family: "Nunito", sans-serif;
-    color: var(--black);
-    font-size: 23px;
-    font-weight: 800;
+    font-size: 18px;
+    font-weight: bold;
+}
+table thead th {
+    margin-bottom: 1rem;
+}
+table thead tr{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.card:hover {
-    transition: .1s ease-out;
-    background-color: #d7d7d7;
-    transform: scale(1.1);
+table tbody {
+    display: flex;
+    gap: 20px;
+}
+
+table tbody tr {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+table tbody tr td {
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+table tbody tr td:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+table tbody tr td:last-child {
+    border-radius: 0 0 8px 8px;
+    border-bottom: none;
+    
+}
+
+table tbody tr td:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.row-purple td {
+    background-color: rgb(64, 64, 242, 35%);
+    border-bottom: 1px solid var(--nav-purple);
+    
+}
+
+.column-purple {
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(64, 64, 242, 35%);
+    border-radius: 8px;
+}
+
+
+.row-red td {
+    background: rgb(243, 103, 103, 35%);
+    border-bottom: 1px solid #F36767;
+    
+}
+
+.column-red {
+    background: rgb(243, 103, 103, 35%);
+    width: 150px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.column-green {
+    background: #98FFBE;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 150px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+.row-green td{
+    background: #98FFBE;
+    border-bottom: 1px solid rgb(16, 107, 50);
+}
+
+.column-yellow {
+    background-color: rgb(253, 212, 0, 35%);
+    width: 150px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.row-yellow td{
+    background-color: rgb(253, 212, 0, 35%);
+    border-bottom: 1px solid rgb(133, 114, 14, 75%);
+}
+
+.column-orange {
+    background-color: rgb(241, 155, 73, 35%);
+    width: 150px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.row-orange td{
+    background-color: rgb(241, 155, 73, 35%);
+    border-bottom: 1px solid rgb(241, 155, 73, 75%);
+
 }
