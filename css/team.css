@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+
+:root {
+    --nav-purple: #4040F2;
+    --sub-purple: rgba(64, 64, 242, 0.4);
+    --gray: #d9d9d9bf;
+    --nav-color: rgba(79, 91, 103, 1);
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+
+/* ASIDEBAR */
+.asidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--white);
+    width: 240px;
+    height: 100vh;
+}
+
+/* LOGO */
+.logo {
+    width: 100%;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 46px;
+}
+
+.logo h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.navbar ul li a {
+    padding: 12px 20px 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--nav-color);
+    cursor: pointer;
+}
+
+.navbar ul li:hover a {
+    border-right: 4px solid var(--nav-purple);
+    background-color: #F7F7FB;
+    color: #0D0D54;
+}
+
+.navbar ul li:hover img {
+    filter: invert(28%) sepia(72%) saturate(10011%) hue-rotate(237deg) brightness(93%) contrast(105%);
+}
+
+
+
+/* SECOND NAVBAR */
+.navbar-help {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-help ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-help ul li a {
+    padding: 12px 20px 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--nav-color);
+    cursor: pointer;
+}
+
+.navbar-help ul li:hover a {
+    border-right: 4px solid var(--nav-purple);
+    background-color: #F7F7FB;
+    color: #0D0D54;
+}
+
+.navbar-help ul li:hover img {
+    filter: invert(28%) sepia(72%) saturate(10011%) hue-rotate(237deg) brightness(93%) contrast(105%);
+}
+
+/* PROFILE CARD */
+.profile-card a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px 24px;
+    gap: 15px;
+    height: 92px;
+}
+
+.profile-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins';
+    color: #4F5B67;
+    text-align: center;
+    cursor: pointer;
+}
+
+.profile-card-info span {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.profile-card-info p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.profile-card:hover .profile-card-info {
+    color: #0D0D54;
+}
+
+.profile-card:hover {
+    border-right: 4px solid var(--nav-purple);
+    background-color: #F7F7FB;
+}
+
+
+/* MAIN */
+
+.main {
+    width: 1520px;
+    height: 1000px;
+    background-color: var(--white);
+    margin-left: 248px;
+    border-radius: 8px;
+    padding: 83px 88px;
+}
+
+.page-info {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 32px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+.page-info img {
+    width: 48px;
+    filter: invert(28%) sepia(72%) saturate(10011%) hue-rotate(237deg) brightness(93%) contrast(105%);
+}
+
+/* CARD */
+
+.card-wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin-top: 6rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 42px;
+    position: relative;
+    width: 289px;
+    height: 285px;
+    background-color: #EDEDED;
+    border-radius: 7px;
+}
+
+.card button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.card-img-circle {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-name {
+    font-family: "Nunito", sans-serif;
+    color: var(--black);
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.card:hover {
+    transition: .1s ease-out;
+    background-color: #d7d7d7;
+    transform: scale(1.1);
+}
+
+.card:hover  {
+}
