@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F2F2F2;
+}
+
+/* INÍCIO INDEX.HTML */
+/* INÍCIO HEADER INDEX.HTML */
+.header-index{
+    background-image: url(../assets/img/10-Dicas-para-aumentar-a-produtividade-do-seu-RH\ 1\ \(1\).png);
+    width: 1728px;
+    height: 650px;
+}
+
+.top-header-index{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 28px 120px 40px;
+}
+
+.logo-index{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.registrar-index{
+    width: 284px;
+    height: 67px;
+    border-radius: 11.387px;
+    background-color: #4040F2;
+    border: none;
+    margin-right: 15px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.6304px;
+    line-height: 108.5%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.entrar-index{
+    width: 284px;
+    height: 67px;
+    border: 3.70435px solid rgba(64, 64, 242, 0.7);
+    border-radius: 11.113px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.8696px;
+    line-height: 108.5%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.resume-index{
+    width: 949px;
+    height: 409px;
+    margin-left: 120px;
+}
+
+.resume-index h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 73px;
+    line-height: 100%;
+
+    margin-bottom: 20px;
+}
+
+.resume-index p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 108.5%;
+    letter-spacing: 0.035em;
+
+    width: 800px;
+    height: 286px;
+}
+/* FIM HEADER INDEX.HTML */
+
+/* INÍCIO MAIN INDEX.HTML */
+.main-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52px;
+}
+
+.main-index h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 100%;
+
+    margin-top: 72px;
+}
+
+.ferramentas-index{
+    display: flex;
+    justify-content: space-around;
+    gap: 42px;
+    margin-bottom: 45px;
+}
+/* FIM MAIN INDEX.HTML */
+
+/* INÍCIO MODAL INDEX.HTML */
+.modal-index{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    position: fixed;
+    
+
+    width: 736px;
+    height: 946.44px;
+    border: 1px black solid;
+    background-color: #fff;
+}
+
+.top-modal-index{
+    display: flex;
+}
+
+.top-modal-index h1{
+    margin-right: 190px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 73px;
+    line-height: 100%;
+    color: #4040F2;
+}
+
+.modal-index h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    color: #4040F2;
+}
+
+.modal-index input{
+    width: 469.29px;
+    height: 85.82px;
+    background: rgba(184, 184, 184, 0.59);
+    border-radius: 9px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    padding: 18px;
+}
+
+.modal-index a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #6464F2;
+}
+
+.entrar-modal-index{
+    width: 104.08px;
+    height: 49.3px;
+    padding: 10px 60px;
+    background-color: red;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #4040F2;
+}
+
+.btn-entrar-modal-index{
+    width: 219.12px;
+    height: 63.91px;
+}
+/* FIM INDEX.HTML */
