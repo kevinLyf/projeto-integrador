@@ -210,10 +210,12 @@ table {
     font-size: 18px;
     font-weight: bold;
 }
+
 table thead th {
     margin-bottom: 1rem;
 }
-table thead tr{
+
+table thead tr {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -243,7 +245,7 @@ table tbody tr td:first-child {
 table tbody tr td:last-child {
     border-radius: 0 0 8px 8px;
     border-bottom: none;
-    
+
 }
 
 table tbody tr td:hover {
@@ -254,7 +256,7 @@ table tbody tr td:hover {
 .row-purple td {
     background-color: rgb(64, 64, 242, 35%);
     border-bottom: 1px solid var(--nav-purple);
-    
+
 }
 
 .column-purple {
@@ -268,7 +270,7 @@ table tbody tr td:hover {
 .row-red td {
     background: rgb(243, 103, 103, 35%);
     border-bottom: 1px solid #F36767;
-    
+
 }
 
 .column-red {
@@ -290,7 +292,7 @@ table tbody tr td:hover {
 
 
 
-.row-green td{
+.row-green td {
     background: #98FFBE;
     border-bottom: 1px solid rgb(16, 107, 50);
 }
@@ -303,7 +305,7 @@ table tbody tr td:hover {
 }
 
 
-.row-yellow td{
+.row-yellow td {
     background-color: rgb(253, 212, 0, 35%);
     border-bottom: 1px solid rgb(133, 114, 14, 75%);
 }
@@ -314,7 +316,8 @@ table tbody tr td:hover {
     padding: 20px;
     border-radius: 8px;
 }
-.row-orange td{
+
+.row-orange td {
     background-color: rgb(241, 155, 73, 35%);
     border-bottom: 1px solid rgb(241, 155, 73, 75%);
 
