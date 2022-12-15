@@ -1,13 +1,11 @@
-function abrir(){
+function abrir() {
+  let modal = document.querySelector(".modal-index");
 
-    let modal = document.querySelector('.modal-index')
-
-    modal.style.display = 'flex';
+  modal.style.display = "flex";
 }
 
-function fechar(){
+function fechar() {
+  let modal = document.querySelector(".modal-index");
 
-    let modal = document.querySelector('.modal-index')
-
-    modal.style.display = 'none';
+  modal.style.display = "none";
 }

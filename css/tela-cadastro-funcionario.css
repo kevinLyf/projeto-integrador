@@ -157,6 +157,9 @@ section{
 select{
     width: 400.91px;
     height: 73.32px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #58585896;
     background: rgba(184, 184, 184, 0.59);
     border-radius: 9px;
 }
