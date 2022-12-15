@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap%27');
+
 body{
     background: #F2F2F2;
 }
@@ -251,12 +253,13 @@ button{
     color: #6464F2;
     margin-top: 32px;
     margin-bottom: 27px;
+    text-align: center;
 }
 
 .login-google-modal-index{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
