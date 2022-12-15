@@ -54,6 +54,12 @@ main{
     gap: 22px;
 }
 
+.btn-entrar-modal-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cadastro-title{
     font-family: 'Poppins', sans-serif;
     font-style: normal;

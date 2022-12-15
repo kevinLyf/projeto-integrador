@@ -105,6 +105,12 @@ body{
 button{
     cursor: pointer;
 }
+
+.btn-entrar-modal-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 /* FIM HEADER INDEX.HTML */
 
 /* INÍCIO MAIN INDEX.HTML */
@@ -251,5 +257,10 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
+
+}
+
+.login-google-modal-index img {
+    width: 80px;
 }
 /* FIM INDEX.HTML */
